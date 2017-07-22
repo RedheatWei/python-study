@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="删除资源“6章/例题/uniFile.py”" deleteContents="false" description="删除资源“6章/例题/uniFile.py”" element1="/6章/例题/uniFile.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1422611778419"/>&#x0A;<refactoring comment="删除资源“6章/例题/213.py”" deleteContents="false" description="删除资源“6章/例题/213.py”" element1="/6章/例题/213.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1422614315515"/>
-</session>

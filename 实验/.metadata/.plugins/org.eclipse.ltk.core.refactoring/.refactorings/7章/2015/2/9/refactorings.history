@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="将资源“7章/例题/7-3-a.py”重命名为“7-3-b.py”" description="重命名资源“7-3-a.py”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="例题/7-3-a.py" name="7-3-b.py" stamp="1425025823562" updateReferences="true"/>&#x0A;<refactoring comment="将资源“7章/例题/7-5.py”重命名为“userpw”" description="重命名资源“7-5.py”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="例题/7-5.py" name="userpw" stamp="1425114145014" updateReferences="true"/>&#x0A;<refactoring comment="将资源“7章/例题/userpw”重命名为“userpw.py”" description="重命名资源“userpw”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="例题/userpw" name="userpw.py" stamp="1425119894398" updateReferences="true"/>
-</session>
