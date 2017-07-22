@@ -1,0 +1,86 @@
+-- VERSION_4
+-- START DISKCACHE
+C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\.metadata\.plugins\org.eclipse.core.resources\.projects\杂项\com.python.pydev.analysis\v2_indexcache
+杂项.setup|1439711399000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\杂项\杂项\setup.py
+杂项.__init__|1439711391000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\杂项\杂项\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+9
+2=PyBuildExt
+3=PyBuildExt.db_found
+7=PyBuildInstallLib
+8=PyBuildExt.detect_ctypes
+5=PyBuildExt.__init__
+1=杂项.setup
+4=PyBuildExt.build_extensions
+6=PyBuildInstall
+9=PyBuildInstall.initialize_options
+-- END DICTIONARY
+-- START TREE 1
+15
+__v|1|__version__!11@
+add|1|add_dir_to_list!10@
+cla|1|CLASSIFIERS!11@
+com|1|COMPILED_WITH_PYDEBUG!11@
+cro|1|cross_compiling!11@
+dis|1|disabled_module_list!11@
+fin|3|find_module_file!10@find_library_file!10@find_file!10@
+get|1|get_platform!10@
+hos|1|host_platform!11@
+is_|1|is_macosx_sdk_path!10@
+mac|1|macosx_sdk_root!10@
+mai|1|main!10@
+mod|1|module_enabled!10@
+pyb|3|PyBuildInstall!9@PyBuildExt!9@PyBuildInstallLib!9@
+sum|1|SUMMARY!11@
+-- END TREE
+-- START TREE 2
+47
+__i|1|__init__!2&10@
+add|3|add_multiarch_paths!2&10@addMacExtension!2&10@add_gcc_paths!2&10@
+app|1|app_kwds!2&11@
+bui|2|build_extensions!2&10@build_extension!2&10@
+bz2|1|bz2_extra_link_args!2&11@
+car|3|CARBON_EXTS!2&11@carbon_extra_compile_args!2&11@carbon_kwds!2&11@
+con|3|configure_ctypes!2&10@config_args!2&11@configure_ctypes_darwin!2&10@
+cor|1|core_kwds!2&11@
+cur|2|curses_incs!2&11@curses_libs!2&11@
+d|1|d!2&11@
+dat|1|data!2&11@
+db_|9|db_incs!3&11@db_patch!3&11@db_found!2&9@db_major!3&11@db_incdir!3&11@db_minor!3&11@db_dirs_to_check!3&11@db_ver!3&11@db_found_vers!3&11@
+dbl|3|dblibs!3&11@dblib_dir!3&11@dblib_file!3&11@
+dbm|3|dbm_order!2&11@dbmext!2&11@dbm_args!2&11@
+def|1|define_macros!2&11@
+det|5|detect_modules!2&10@detect_tkinter_explicitly!2&10@detect_tkinter!2&10@detect_ctypes!2&10@detect_tkinter_darwin!2&10@
+dl_|1|dl_inc!2&11@
+exp|4|expat_sources!2&11@expat_depends!2&11@expat_inc!2&11@expat_lib!2&11@
+ext|3|extra_link_args!2&11@extensions!4&11@extra_compile_args!2&11@
+f|2|f!3&11@f!2&11@
+fai|1|failed!5&11@
+fp|1|fp!2&11@
+gdb|1|gdbm_libs!2&11@
+hav|1|have_zlib!2&11@
+hos|1|host_platform!2&11@
+inc|1|incf!2&11@
+ini|1|initialize_options!6&10@
+ins|1|install!7&10@
+is_|1|is_chmod_supported!7&10@
+lib|2|libraries!2&11@libs!2&11@
+lin|1|line!2&11@
+m|2|m!3&11@m!2&11@
+mac|2|macros!2&11@macSrcExists!2&10@
+min|2|MIN_SQLITE_VERSION!2&11@MIN_SQLITE_VERSION_NUMBER!2&11@
+mul|1|multiprocessing_srcs!2&11@
+ndb|1|ndbm_libs!2&11@
+pan|1|panel_library!2&11@
+set|3|set_file_modes!7&10@set_dir_modes_visitor!7&10@set_dir_modes!7&10@
+so_|1|so_ext!7&11@
+sql|11|sqlite_srcs!2&11@sqlite_incdir!2&11@sqlite_version_tuple!2&11@sqlite_libdir!2&11@sqlite_dirs_to_check!2&11@sqlite_version!2&11@sqlite_defines!2&11@sqlite_libfile!2&11@sqlite_inc_paths!2&11@sqlite_extra_link_args!2&11@sqlite_setup_debug!2&11@
+sys|1|sysroot!2&11@
+tmp|1|tmp!3&11@
+use|1|use_system_libffi!8&11@
+ver|2|version_req!2&11@version!2&11@
+war|1|warn_dir!9&11@
+win|1|win_kwds!2&11@
+zli|3|zlib_h!2&11@zlib_extra_link_args!2&11@zlib_inc!2&11@
+-- END TREE

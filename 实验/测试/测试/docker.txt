@@ -1,0 +1,63 @@
+apt-get update 
+apt-get install -y docker.io  //安装docker
+docker info //查看docker信息
+docker create ubuntu:14.04  //创建
+docker -v
+ocker build ubuntu:14.04
+docker --h
+docker run -i -t --name=inspect_shell ubuntu /bin/bash
+ps axuf 
+docker ps
+docker ps -a
+docker build inspect_shell
+docker run inspect_shell
+docker run --name demon_while -d ubuntu /bin/sh -c "while true; do echo hello world; sleep 1;done"
+docker ps
+docker ps -a
+docker ps -l
+docker ps -n=2
+docker start cec8fba6229d
+docker ps
+docker run --restart=always --name docker_restart -d ubuntu /bin/sh -c "while true;do echo hello world;sleep 1;done"
+docker ps
+docker rm 73028b8930cc
+docker stop 73028b8930cc
+docker rm 73028b8930cc
+docker ps -a
+docker rm -f cec8fba6229d
+docker ps -a
+docker run -i -t ubuntu:14.04 /bin/sh
+docker ps
+docker ps -a
+docker rm -f 31191936a574
+docker ps -a
+docker run -i -t ubuntu:14.04 /bin/sh
+docker ps
+docker rm -f 3ccc7033abb3
+docker run -i -t --name ubuntu ubuntu:14.04 /bin/sh
+docker ps
+docker ps -a
+docker start 7dd36d329f99
+docker ps
+docker attach ubuntu
+docker os
+docker ps
+docker ps -a
+docker attach ubuntu
+docker ps -a
+docker logs -f ubuntu
+docker logs -f silly_darwin
+docker run -d --name deamon_logs ubuntu /bin/bash -c 'for((i=0;1;i++));do echo $i;sleep 1;done;'
+docker logs -f deamon_logs
+docker logs -f --tail=5 deamon_logs
+docker logs -f --tail=5 -t deamon_logs
+date
+docker top
+docker run -d --name="deamon_top" ubuntu /bin/bash -c 'while true;do sleep 1;done'
+docker top deamon_top
+docker inspect daemon_dave
+docker ps -a
+docker inspect deamon_logs
+docker inspect --format='{{.State.Running}} 'deamon_logs
+docker inspect --format='{{.State.Running}}' deamon_logs
+docker inspect --format='{{.State.Running}} {{.Name}}' deamon_logs

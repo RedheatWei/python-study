@@ -1,0 +1,20 @@
+#!/usr/bin/env python
+#_*_ coding:utf-8 _*_
+'''
+Created on 2015年5月28日
+Email: weipeng@sinashow.com
+@author: Redheat
+
+'''
+import urllib2,time
+
+while True:
+    url='http://www.vxvip.cn/news.asp?BigClassName=%CE%A2%D0%C5%C8%A6%BE%AB%D1%A1&SmallClassName=%CE%A2%C9%CC%D7%CA%D1%B6' 
+    response = urllib2.urlopen(url)
+    print response.read()
+#    url='http://www.vxvip.cn/news_infoo.asp?ArticleID=101' 
+#    response = urllib2.urlopen(url)
+#    print response.read()
+#    time.sleep(3)
+    
+#    continue

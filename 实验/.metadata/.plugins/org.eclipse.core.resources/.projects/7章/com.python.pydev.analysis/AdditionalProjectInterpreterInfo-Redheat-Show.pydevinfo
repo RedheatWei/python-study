@@ -1,0 +1,31 @@
+-- VERSION_4
+-- START DISKCACHE
+C:\Users\zxc\OneDrive\文档\脚本\Python\实验\.metadata\.plugins\org.eclipse.core.resources\.projects\7章\com.python.pydev.analysis\v2_indexcache
+例题.__init__|1425021883100|C:\Users\zxc\OneDrive\文档\脚本\Python\实验\7章\例题\__init__.py
+例题.时间测试|1425453768936|C:\Users\zxc\OneDrive\文档\脚本\Python\实验\7章\例题\时间测试.py
+例题.userpw|1425114727120|C:\Users\zxc\OneDrive\文档\脚本\Python\实验\7章\例题\userpw.py
+例题.字典测试|1425295745683|C:\Users\zxc\OneDrive\文档\脚本\Python\实验\7章\例题\字典测试.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+2=例题.时间测试
+1=例题.userpw
+3=例题.字典测试
+-- END DICTIONARY
+-- START TREE 1
+11
+db|1|db!11@
+dic|1|dict_modul_passwd!18@
+f|1|f!27@
+nam|1|name!27@
+new|1|newuser!10@
+now|2|now_login!27@now_login!19@
+old|2|olduser!10@olduser!18@
+pwd|1|pwd!27@
+sho|1|showmenu!10@
+tes|1|test_open!27@
+use|1|user_name!27@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

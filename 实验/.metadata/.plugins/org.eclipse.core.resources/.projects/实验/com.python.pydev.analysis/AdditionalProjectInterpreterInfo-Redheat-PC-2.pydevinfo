@@ -1,0 +1,61 @@
+-- VERSION_4
+-- START DISKCACHE
+C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\.metadata\.plugins\org.eclipse.core.resources\.projects\实验\com.python.pydev.analysis\v2_indexcache
+实验.new_machine|1427878177000|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\实验\实验\new_machine.py
+实验.day2|1428581185000|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\实验\实验\day2.py
+实验.get_ip_area|1427688149000|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\实验\实验\get_ip_area.py
+实验.udp_client|1431081162000|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\实验\实验\udp_client.py
+实验.login_test|1427974650000|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\实验\实验\login_test.py
+实验.tcp_client|1431081155000|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\实验\实验\tcp_client.py
+实验.click|1432822624789|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\实验\实验\click.py
+实验.udp_server|1430383210000|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\实验\实验\udp_server.py
+实验.tcp_server|1430280146000|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\实验\实验\tcp_server.py
+实验.__init__|1431680490000|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\实验\实验\__init__.py
+实验.process|1431686010000|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\实验\实验\process.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+8=实验.new_machine
+2=实验.udp_client
+5=实验.get_ip_area
+6=实验.day2
+7=实验.login_test
+4=实验.tcp_client
+10=实验.click
+3=实验.udp_server
+1=实验.tcp_server
+9=实验.process
+-- END DICTIONARY
+-- START TREE 1
+27
+add|4|ADDR!11@ADDR!19@ADDR!27@ADDR!35@
+are|1|area_ip!43@
+buf|4|BUFSIZ!11@BUFSIZ!19@BUFSIZ!27@BUFSIZ!35@
+che|1|check_id!51@
+cou|1|count!19@
+dat|2|data!11@data_sen!19@
+dir|2|dir_name!35@dir_name!19@
+err|2|error!19@error!59@
+fil|3|file_name!35@file_name!19@file_name!67@
+fir|1|first!74@
+ftp|1|ftp_download!66@
+get|1|get_area!42@
+hos|5|HOST!35@HOST!27@HOST!67@HOST!11@HOST!19@
+log|4|log_hadle!18@log_hadle!34@log_write!34@log_write!18@
+max|4|max_number!35@max_size!35@max_number!19@max_size!19@
+mk_|2|mk_dir!34@mk_dir!18@
+pas|3|passwd!59@passwd!67@password!59@
+por|4|PORT!11@PORT!19@PORT!35@PORT!27@
+rec|1|rec!19@
+res|1|response!83@
+sec|1|second!74@
+tcp|1|tcpSerSock!11@
+tim|1|time_out!35@
+udp|1|udpSerSock!27@
+url|1|url!83@
+use|3|user!59@user_id!59@user!67@
+wpf|1|wpf!51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

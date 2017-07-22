@@ -1,0 +1,78 @@
+#!/usr/bin/env python
+#_*_ coding:utf-8 _*_
+'''
+Created on 2015年4月12日
+
+@author: Redheat
+'''
+import json
+
+commodity_dict = {'1':['Potato',3.6],'2':['Chicken',12],'3':['Haagen Dazs',33],\
+                  '4':['Clothes',588],'5':['Apple Watch',4588],'6':['BMW',780000]}
+
+
+wage = 12888 #Just a dream.
+commodity_buy = {}
+
+show_list =
+'''
+  Which one did you want to buy ？
+  
+    1.Potato:3.6￥
+    2.Chicken:12￥
+    3.Haagen Dazs:33￥
+    4.Clothes：588￥
+    5.Apple Watch：4588￥
+    6.BMW：Just for show ！
+    7.Checkout
+    8.Quit
+    '''
+    
+def calculation(choice):#计算剩余工资
+    if wage > commodity_dict[choice][-1]:
+        surplus = wage - commodity_dict[choice][-1]
+        buy_list = [commodity_dict[choice][0],commodity_dict[choice][-1],surplus]
+
+        return buy_list
+    else:
+        print 'Have no enough money!'
+
+
+def checkout(commodity_buy):
+    for key in commodity_buy:
+        print 'Commodity %s,Price %s,surplus %s' % (key,commodity_buy[key][1],\
+                                                    commodity_buy[key][-1])
+    
+
+def read_json(file_name):
+    f = open('file_name')
+    commodity_buy = json.load(f)
+    f.close()
+    return commodity_buy
+
+
+def write_json(file_name,commodity_buy):
+    f = open('file_name','ab')
+    json.dump(commodity_buy,'file_name')
+    f.close()
+
+def main():
+    while True:
+        choice = raw_input(show_list)
+        while choice not in '12345678':
+            print 'Have no this commodity,please try again.'
+            continue
+        else:
+            if choice == '8':
+                break
+            elif choice == '7':
+                commodity_buy = read_json('buy_file')
+                checkout(commodity_buy)
+                
+            else:
+                buy_list = calculation(choice)
+                commodity_buy[commodity_dict[choice][0]] = [buy_list[1],buy_list[-1]]
+                write_json('buy_file', commodity_buy)
+            
+#if __name__ == '__main__':
+main()

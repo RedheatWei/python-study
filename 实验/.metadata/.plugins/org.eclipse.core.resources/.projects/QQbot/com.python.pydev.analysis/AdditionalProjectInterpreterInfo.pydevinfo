@@ -1,0 +1,90 @@
+-- VERSION_4
+-- START DISKCACHE
+C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\.metadata\.plugins\org.eclipse.core.resources\.projects\QQbot\com.python.pydev.analysis\v2_indexcache
+qqbot-master.sample|1475577416000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\qqbot-master\sample.py
+qqbot-master.__init__|1443094131000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\qqbot-master\__init__.py
+qqbot-master.qqbot|1475577416000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\qqbot-master\qqbot.py
+qqbot-master.setup|1475577416000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\qqbot-master\setup.py
+-- END DISKCACHE
+-- START DICTIONARY
+22
+10=QQBot.fetchGroups
+12=QQBot.Run
+21=MyQQBot.onPollComplete
+2=qqbot-master.sample
+18=QQBot.getQrcode
+19=QQBot.pullForever
+22=QQBot.getVfwebqq
+6=QQBot.fetchBuddies
+15=MyQQBot
+16=QQBot.dumpSessionInfo
+8=QQBot.fetchDiscusses
+1=qqbot-master.qqbot
+4=CodingWrappedWriter
+7=QQBot.prepareLogin
+9=CodingWrappedWriter.__init__
+11=QQBot.getUinAndPsessionid
+13=QQBot.waitForAuth
+20=QQBot.onPollComplete
+5=QQBot
+3=QQBot.loadSessionInfo
+14=QQBot.refetch
+17=QQBot.getPtwebqq
+-- END DICTIONARY
+-- START TREE 1
+11
+cod|1|CodingWrappedWriter!9@
+mai|1|main!10@
+myq|2|myqqbot!19@MyQQBot!17@
+qha|1|qHash!10@
+qlo|1|QLogger!11@
+qqb|2|QQBot!9@QQBotVersion!11@
+req|1|RequestError!9@
+set|1|setLogger!10@
+sho|1|showImage!10@
+tmp|2|TmpDir!11@tmpfile!11@
+utf|1|utf8Partition!10@
+-- END TREE
+-- START TREE 2
+40
+__d|1|__dict__!3&11@
+__i|1|__init__!4&10@
+_se|1|_send!5&10@
+aut|1|autoLogin!5&10@
+bud|1|buddyStr!6&11@
+cli|1|clientid!7&11@
+dis|1|discussStr!8&11@
+dum|1|dumpSessionInfo!5&10@
+fet|4|fetchBuddies!5&10@fetchGroups!5&10@fetchDiscusses!5&10@fetchBuddyDetailInfo!5&10@
+flu|1|flush!9&11@
+get|5|getAuthStatus!5&10@getQrcode!5&10@getUinAndPsessionid!5&10@getVfwebqq!5&10@getPtwebqq!5&10@
+gro|1|groupStr!10&11@
+has|1|hash!11&11@
+hel|1|helpInfo!5&11@
+loa|1|loadSessionInfo!5&10@
+log|1|Login!5&10@
+man|1|manualLogin!5&10@
+msg|2|msgQueue!12&11@msgId!7&11@
+nic|2|nick!13&11@nick!14&11@
+onp|2|onPollComplete!5&10@onPollComplete!15&18@
+pol|3|poll!5&10@pollSession!16&11@pollSession!3&11@
+pre|1|prepareLogin!5&10@
+pse|1|psessionid!11&11@
+ptw|1|ptwebqq!17&11@
+pul|1|pullForever!5&10@
+qqn|1|qqNum!13&11@
+qrc|1|qrcodePath!18&11@
+ref|1|refetch!5&10@
+run|1|Run!5&10@
+sen|1|send!5&10@
+ses|1|session!7&11@
+sma|1|smartRequest!5&10@
+sto|4|stopped!12&11@stopped!19&11@stopped!20&11@stopped!21&19@
+tes|1|testLogin!5&10@
+uin|1|uin!11&11@
+url|2|urlGet!5&10@urlPtwebqq!13&11@
+utf|1|utf8Stderr!4&11@
+vfw|1|vfwebqq!22&11@
+wai|1|waitForAuth!5&10@
+wri|1|write!9&11@
+-- END TREE

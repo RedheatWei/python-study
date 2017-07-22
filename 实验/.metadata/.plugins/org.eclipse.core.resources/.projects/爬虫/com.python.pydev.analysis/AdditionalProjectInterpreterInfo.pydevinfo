@@ -1,0 +1,31 @@
+-- VERSION_4
+-- START DISKCACHE
+C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\.metadata\.plugins\org.eclipse.core.resources\.projects\爬虫\com.python.pydev.analysis\v2_indexcache
+爬虫.demo|1434533088000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\爬虫\爬虫\demo.py
+爬虫.GetNovelToTxt|1437641165000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\爬虫\爬虫\GetNovelToTxt.py
+爬虫.__init__|1434361483000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\爬虫\爬虫\__init__.py
+爬虫.chezhudai|1452842559000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\爬虫\爬虫\chezhudai.py
+爬虫.HandleText|1437643610000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\爬虫\爬虫\HandleText.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+2=爬虫.GetNovelToTxt
+3=爬虫.chezhudai
+1=爬虫.HandleText
+-- END DICTIONARY
+-- START TREE 1
+10
+con|1|con!11@
+f|1|f!11@
+fil|1|FileWrite!18@
+han|1|HandleText!18@
+htm|2|html!27@html!19@
+m|1|m!11@
+mat|1|matchre!27@
+res|3|response!19@restr!27@response!27@
+url|1|urlstr!27@
+wri|1|WriteText!10@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

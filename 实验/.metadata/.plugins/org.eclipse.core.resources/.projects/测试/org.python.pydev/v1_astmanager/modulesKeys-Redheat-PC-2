@@ -1,0 +1,12 @@
+MODULES_MANAGER_V2
+测试.AddGold|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\测试\测试\AddGold.py
+测试.__init__|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\测试\测试\__init__.py
+测试.day2|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\测试\测试\day2.py
+测试.get_ip_area|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\测试\测试\get_ip_area.py
+测试.install|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\测试\测试\install.py
+测试.login_test|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\测试\测试\login_test.py
+测试.new_machine|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\测试\测试\new_machine.py
+测试.tcp_client|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\测试\测试\tcp_client.py
+测试.tcp_server|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\测试\测试\tcp_server.py
+测试.udp_client|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\测试\测试\udp_client.py
+测试.udp_server|C:\Users\Redheat\OneDrive\文档\脚本\Python\实验\测试\测试\udp_server.py

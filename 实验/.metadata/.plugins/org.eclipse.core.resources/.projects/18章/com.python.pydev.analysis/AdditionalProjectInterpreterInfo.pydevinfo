@@ -1,0 +1,32 @@
+-- VERSION_4
+-- START DISKCACHE
+C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\.metadata\.plugins\org.eclipse.core.resources\.projects\18章\com.python.pydev.analysis\v2_indexcache
+示例.__init__|1427773711000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\18章\示例\__init__.py
+示例.mtsleep3|1428045788000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\18章\示例\mtsleep3.py
+示例.mtsleep4|1428380226000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\18章\示例\mtsleep4.py
+示例.mtsleep1|1427780323000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\18章\示例\mtsleep1.py
+示例.mtsleep2|1427953735000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\18章\示例\mtsleep2.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+4=示例.mtsleep3
+5=ThreadFunc
+3=示例.mtsleep4
+2=示例.mtsleep1
+1=示例.mtsleep2
+6=ThreadFunc.__init__
+-- END DICTIONARY
+-- START TREE 1
+3
+loo|8|loops!11@loop!10@loop0!18@loop1!18@loop!26@loop!34@loops!27@loops!35@
+mai|4|main!10@main!34@main!18@main!26@
+thr|1|ThreadFunc!25@
+-- END TREE
+-- START TREE 2
+5
+__c|1|__call__!5&26@
+__i|1|__init__!5&26@
+arg|1|args!6&27@
+fun|1|func!6&27@
+nam|1|name!6&27@
+-- END TREE

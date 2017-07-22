@@ -1,0 +1,13 @@
+MODULES_MANAGER_V2
+django.__init__|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\运维开发\django\__init__.py
+elasticsearch.GetElaData|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\运维开发\elasticsearch\GetElaData.py
+elasticsearch.__init__|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\运维开发\elasticsearch\__init__.py
+elasticsearch.fileSimplify|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\运维开发\elasticsearch\fileSimplify.py
+elasticsearch.makeRconfig|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\运维开发\elasticsearch\makeRconfig.py
+elasticsearch.rfc3339|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\运维开发\elasticsearch\rfc3339.py
+elasticsearch.sendSocket|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\运维开发\elasticsearch\sendSocket.py
+project.__init__|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\运维开发\project\__init__.py
+project.zipToFtp|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\运维开发\project\zipToFtp.py
+project.zipToSFtp|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\运维开发\project\zipToSFtp.py
+zabbix.__init__|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\运维开发\zabbix\__init__.py
+zabbix.zabbixApi|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\运维开发\zabbix\zabbixApi.py

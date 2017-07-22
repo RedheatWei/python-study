@@ -1,0 +1,49 @@
+-- VERSION_4
+-- START DISKCACHE
+C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\.metadata\.plugins\org.eclipse.core.resources\.projects\devop\com.python.pydev.analysis\v2_indexcache
+wxf|1452829703276|D:\object\wxf.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+1=wxf
+2=UnicodeStreamFilter
+3=UnicodeStreamFilter.__init__
+-- END DICTIONARY
+-- START TREE 1
+27
+My|1|My!11@
+add|1|addMember!10@
+bas|2|base_uri!11@BaseRequest!11@
+con|1|ContactList!11@
+cre|1|createChatroom!10@
+deb|1|DEBUG!11@
+del|1|deleteMember!10@
+dev|1|deviceId!11@
+get|2|getRequest!10@getUUID!10@
+int|1|INTERFACE_CALLING_INTERVAL!11@
+log|1|login!10@
+mai|1|main!10@
+max|2|MAX_GROUP_NUM!11@MAX_PROGRESS_LEN!11@
+pas|1|pass_ticket!11@
+qri|1|QRImagePath!11@
+ran|1|range!11@
+red|1|redirect_uri!11@
+sho|1|showQRImage!10@
+ske|1|skey!11@
+syn|2|SyncKey!11@syncCheck!10@
+tip|1|tip!11@
+uni|1|UnicodeStreamFilter!9@
+uui|1|uuid!11@
+wai|1|waitForLogin!10@
+web|2|webwxinit!10@webwxgetcontact!10@
+wxs|1|wxsid!11@
+wxu|1|wxuin!11@
+-- END TREE
+-- START TREE 2
+5
+__i|1|__init__!2&10@
+enc|2|encoding!3&11@encode_to!3&11@
+err|1|errors!3&11@
+tar|1|target!3&11@
+wri|1|write!2&10@
+-- END TREE

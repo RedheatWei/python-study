@@ -1,0 +1,104 @@
+-- VERSION_4
+-- START DISKCACHE
+C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\.metadata\.plugins\org.eclipse.core.resources\.projects\实验\com.python.pydev.analysis\v2_indexcache
+实验.day2|1428581185000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\day2.py
+实验.urlopen|1437882350000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\urlopen.py
+实验.tcp_client|1431081155000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\tcp_client.py
+实验.sum|1435211994000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\sum.py
+实验.udp_server|1430383210000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\udp_server.py
+实验.nginx|1437993909000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\nginx.py
+实验.__init__|1431680490000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\__init__.py
+实验.process|1431686010000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\process.py
+实验.new_machine|1427878177000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\new_machine.py
+实验.retxt|1438221909000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\retxt.py
+实验.get_ip_area|1427688149000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\get_ip_area.py
+实验.udp_client|1431081162000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\udp_client.py
+实验.login_test|1427974650000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\login_test.py
+实验.正则迭代匹配|1438494358000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\正则迭代匹配.py
+实验.click|1432822624000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\click.py
+实验.tcp_server|1430280146000|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\实验\实验\tcp_server.py
+-- END DISKCACHE
+-- START DICTIONARY
+18
+8=实验.day2
+17=fileAnalysis
+5=实验.tcp_client
+7=实验.sum
+4=实验.udp_server
+16=displayFormat
+1=实验.nginx
+12=实验.process
+11=实验.new_machine
+9=实验.retxt
+3=实验.udp_client
+6=实验.get_ip_area
+10=实验.login_test
+13=实验.正则迭代匹配
+18=fileAnalysis.return_sorted_list
+14=实验.click
+2=实验.tcp_server
+15=Main
+-- END DICTIONARY
+-- START TREE 1
+38
+__i|1|__init__!10@
+add|4|ADDR!19@ADDR!27@ADDR!35@ADDR!43@
+are|1|area_ip!51@
+buf|4|BUFSIZ!19@BUFSIZ!27@BUFSIZ!35@BUFSIZ!43@
+che|3|check!58@check_id!67@check_list!59@
+con|1|con!75@
+cou|1|count!27@
+dat|2|data!19@data_sen!27@
+dir|2|dir_name!43@dir_name!27@
+dis|1|displayFormat!9@
+err|2|error!27@error!83@
+f|1|f!75@
+fil|4|file_name!43@fileAnalysis!9@file_name!27@file_name!91@
+fir|1|first!98@
+ftp|1|ftp_download!90@
+get|2|get_value!10@get_area!50@
+hos|8|host_info!11@HOST!43@HOST!35@host!11@hostInfo!9@HOST!91@HOST!19@HOST!27@
+inc|1|increment!10@
+lar|1|large!59@
+log|4|log_hadle!26@log_hadle!42@log_write!42@log_write!26@
+m|2|m!107@m!75@
+mai|1|Main!9@
+max|4|max_number!43@max_size!43@max_number!27@max_size!27@
+mk_|2|mk_dir!42@mk_dir!26@
+num|1|numstr!107@
+pas|3|passwd!83@passwd!91@password!83@
+por|4|PORT!19@PORT!27@PORT!43@PORT!35@
+rec|1|rec!27@
+res|2|response!115@restr!107@
+sec|1|second!98@
+sel|1|self!11@
+sys|1|sys_argv!11@
+tcp|1|tcpSerSock!19@
+tim|1|time_out!43@
+udp|1|udpSerSock!35@
+url|1|url!115@
+use|3|user!83@user_id!83@user!91@
+wpf|1|wpf!67@
+-- END TREE
+-- START TREE 2
+19
+arg|1|arg_length!15&11@
+dis|1|display_format!15&11@
+err|1|error_print!16&10@
+exe|1|execut_time!16&10@
+fil|1|fileAnalysis_obj!15&11@
+for|2|formatstring!16&11@format_size!16&10@
+gen|1|generate_log_report!17&10@
+hea|1|head!16&10@
+inf|2|infile!15&11@infile_name!15&11@
+lin|1|lines!15&11@
+log|1|log_report!15&11@
+mai|1|main_obj!15&11@
+not|1|not_true_dict!15&11@
+ret|1|return_sorted_list!17&10@
+sel|1|self!17&11@
+spl|1|split_eachline_todict!17&10@
+tim|2|times_percent!15&11@times!15&11@
+tot|11|total_404!18&11@total_503!18&11@total_ip!15&11@total_request_times!18&11@total_request_times!15&11@total_200!18&11@total_traffic!18&11@total_traffic!15&11@total_304!18&11@total_500!18&11@total_302!18&11@
+tra|1|transverse_line!16&10@
+-- END TREE

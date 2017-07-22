@@ -1,0 +1,80 @@
+-- VERSION_4
+-- START DISKCACHE
+C:\Users\Redheat\OneDrive\Œƒµµ\Ω≈±æ\Python\ µ—È\.metadata\.plugins\org.eclipse.core.resources\.projects\≤‚ ‘\com.python.pydev.analysis\v2_indexcache
+≤‚ ‘.tcp_client|1431081155000|C:\Users\Redheat\OneDrive\Œƒµµ\Ω≈±æ\Python\ µ—È\≤‚ ‘\≤‚ ‘\tcp_client.py
+≤‚ ‘.day2|1428581185000|C:\Users\Redheat\OneDrive\Œƒµµ\Ω≈±æ\Python\ µ—È\≤‚ ‘\≤‚ ‘\day2.py
+≤‚ ‘.login_test|1427974650000|C:\Users\Redheat\OneDrive\Œƒµµ\Ω≈±æ\Python\ µ—È\≤‚ ‘\≤‚ ‘\login_test.py
+≤‚ ‘.udp_client|1431081162000|C:\Users\Redheat\OneDrive\Œƒµµ\Ω≈±æ\Python\ µ—È\≤‚ ‘\≤‚ ‘\udp_client.py
+≤‚ ‘.get_ip_area|1427688149000|C:\Users\Redheat\OneDrive\Œƒµµ\Ω≈±æ\Python\ µ—È\≤‚ ‘\≤‚ ‘\get_ip_area.py
+≤‚ ‘.tcp_server|1430280146000|C:\Users\Redheat\OneDrive\Œƒµµ\Ω≈±æ\Python\ µ—È\≤‚ ‘\≤‚ ‘\tcp_server.py
+≤‚ ‘.AddGold|1432570483461|C:\Users\Redheat\OneDrive\Œƒµµ\Ω≈±æ\Python\ µ—È\≤‚ ‘\≤‚ ‘\AddGold.py
+≤‚ ‘.new_machine|1427878177000|C:\Users\Redheat\OneDrive\Œƒµµ\Ω≈±æ\Python\ µ—È\≤‚ ‘\≤‚ ‘\new_machine.py
+≤‚ ‘.__init__|1427683917000|C:\Users\Redheat\OneDrive\Œƒµµ\Ω≈±æ\Python\ µ—È\≤‚ ‘\≤‚ ‘\__init__.py
+≤‚ ‘.install|1433223319000|C:\Users\Redheat\OneDrive\Œƒµµ\Ω≈±æ\Python\ µ—È\≤‚ ‘\≤‚ ‘\install.py
+≤‚ ‘.udp_server|1430383210000|C:\Users\Redheat\OneDrive\Œƒµµ\Ω≈±æ\Python\ µ—È\≤‚ ‘\≤‚ ‘\udp_server.py
+-- END DISKCACHE
+-- START DICTIONARY
+18
+7=≤‚ ‘.day2
+13=Account
+8=≤‚ ‘.login_test
+4=≤‚ ‘.udp_client
+5=≤‚ ‘.tcp_server
+6=≤‚ ‘.get_ip_area
+1=≤‚ ‘.AddGold
+17=MySqlConnect.__init__
+18=MySqlUpdate.__init__
+2=≤‚ ‘.tcp_client
+12=MySqlUpdate
+14=Game
+16=Game.__init__
+9=≤‚ ‘.new_machine
+15=Account.__init__
+3=≤‚ ‘.udp_server
+10=≤‚ ‘.install
+11=MySqlConnect
+-- END DICTIONARY
+-- START TREE 1
+29
+acc|1|Account!9@
+add|4|ADDR!19@ADDR!27@ADDR!35@ADDR!43@
+are|1|area_ip!51@
+buf|4|BUFSIZ!35@BUFSIZ!43@BUFSIZ!19@BUFSIZ!27@
+che|1|check_id!59@
+cou|1|count!35@
+dat|2|data_sen!35@data!43@
+dir|2|dir_name!19@dir_name!35@
+err|2|error!67@error!35@
+fil|3|file_name!35@file_name!75@file_name!19@
+ftp|1|ftp_download!74@
+gam|1|Game!9@
+get|2|get_area!50@getconfigfilebyftp!82@
+hos|5|HOST!43@HOST!19@HOST!27@HOST!75@HOST!35@
+id|1|id!11@
+ins|1|install_unpackage!82@
+log|4|log_write!34@log_hadle!18@log_write!18@log_hadle!34@
+max|4|max_number!35@max_size!19@max_number!19@max_size!35@
+mk_|2|mk_dir!34@mk_dir!18@
+mys|2|MySqlConnect!9@MySqlUpdate!9@
+pas|3|passwd!75@passwd!67@password!67@
+por|4|PORT!27@PORT!35@PORT!43@PORT!19@
+rec|2|rec!35@reconfig!82@
+roo|1|rootpath!83@
+tcp|1|tcpSerSock!43@
+tim|2|time_out!19@timeout!83@
+udp|1|udpSerSock!27@
+use|4|user!75@username!11@user!67@user_id!67@
+wpf|1|wpf!59@
+-- END TREE
+-- START TREE 2
+9
+__d|2|__del__!11&10@__del__!12&10@
+__i|4|__init__!11&10@__init__!13&10@__init__!12&10@__init__!14&10@
+__m|2|__mysql!15&11@__mysql!16&11@
+con|2|conn!17&11@conn!18&11@
+cur|2|cur!17&11@cur!18&11@
+get|1|GetUser!13&10@
+han|2|Handle!11&10@Handle!12&10@
+sel|2|Select!11&10@Select!12&10@
+upd|1|UpdateGold!14&10@
+-- END TREE

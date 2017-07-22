@@ -1,0 +1,149 @@
+#!/usr/bin/env python
+#_*_ coding:utf-8 _*_
+'''
+Created on 2015年5月20日
+Email: weipeng@sinashow.com
+@author: Redheat
+
+'''
+import time,MySQLdb
+import socket
+from socket import *
+
+
+class StatusServer(object):
+    def __init__(self):
+        self.HOST = ''
+        self.PORT = 21568
+        self.BUFSIZE = 1024
+        self.ADDR = (self.HOST,self.PORT)
+    
+    def TcpServer(self):
+        tcpSerSock = socket(AF_INET,SOCK_STREAM)
+        while True:
+            try:
+                tcpSerSock.bind(self.ADDR)
+                tcpSerSock.listen(5)
+                print '1'
+            except Exception,e:
+                print e
+                print '2'
+                time.sleep(3)
+                continue
+            else:
+                while True:
+                    tcpCliSock, addr = tcpSerSock.accept()
+                    while True:
+                        data_rec = tcpCliSock.recv(self.BUFSIZE)
+                        tcpCliSock.send(data_rec)
+                        print data_rec
+                        tcpCliSock.close()
+                        break
+                    
+                    
+    def UdpServer(self):
+        udpSerSock = socket(AF_INET,SOCK_DGRAM)
+        while True:
+            try:
+                udpSerSock.bind(self.ADDR)
+            except Exception,e:
+                print e
+                time.sleep(3)
+                continue
+            else:
+                while True:
+                    data, addr = udpSerSock.recvfrom(self.BUFSIZE)
+                    udpSerSock.sendto('[%s] %s' % (time.time(),data),addr)
+                    continue
+                
+class StatusAgent(object):
+    def __init__(self):
+        self.HOST = '183.131.72.142'
+        self.PORT = 21568
+        self.BUFSIZE = 1024
+        self.ADDR = (self.HOST,self.PORT)
+        self.data_sen = '1' * (2**9)
+        
+    def TcpAgent(self,tablename):
+        tcpCliSock = socket(AF_INET,SOCK_STREAM)
+        while True:
+            try:
+                tcpCliSock.connect(self.ADDR)
+            except Exception,e:
+                print e
+                time_time = time.strftime('%Y%m%d%H%M%S',time.localtime(time.time()))
+                ip_ip = self.HOST
+                delay = None
+                time_out = 1
+                Account().TcpAdd(tablename,time_time, ip_ip, delay, time_out)
+                time.sleep(3)
+                continue
+            else:
+                tcpCliSock.send(str(time.time()))
+                data_s = (tcpCliSock.recv(self.BUFSIZE),time.time())
+                ip_ip = self.HOST
+                time_time = time.strftime('%Y%m%d%H%M%S',time.localtime(data_s[-1]))
+                delay = float(data_s[-1]) - float(data_s[0])
+                time_out = None
+                Account().TcpAdd(tablename,time_time, ip_ip, delay, time_out)
+                time.sleep(3)
+                tcpCliSock.close()
+                continue
+        
+    def UdpAgent(self):
+        udpCliSock = socket(AF_INET,SOCK_DGRAM)
+        udpCliSock.settimeout(0.3)
+        while True:
+            udpCliSock.sendto(self.data_sen,self.ADDR)
+            data_rec,ADDR = udpCliSock.recvfrom(self.BUFSIZE)
+            udpCliSock.close()
+            time.sleep(3)
+            continue
+        
+class MySqlConnect(object):
+    'for connect mysql'
+    def __init__(self):
+        self.conn = MySQLdb.connect(host='183.131.72.142',user='network',passwd='redheat@sinashow',db='network_info')
+        self.cur = self.conn.cursor()
+
+    def Handle(self,sql):
+        self.cur.execute(sql)
+        self.conn.commit()
+    
+    def Select(self,sql):
+        self.cur.execute(sql)
+        data = self.cur.fetchone()
+        return data
+    
+    def __del__(self):
+        self.cur.close()
+        self.conn.close()
+    
+class Account(object):
+    'for add or del user'
+    def __init__(self):
+        self.__mysql = MySqlConnect()
+        
+    def TcpAdd(self,tablename,time_time,ip_ip,delay,time_out):
+        sql = 'insert into "%s"(time,ip,delay,timeout) values("%s","%s","%s","%s")' % (tablename,time_time,ip_ip,delay,time_out)
+        self.__mysql.Handle(sql)
+    
+    def UdpAdd(self,tablename,time_time,ip_ip,lengh,success,dropped):
+        sql = 'insert into "%s"(time,ip,lengh,success,dropped) values("%s","%s","%s","%s","%s")' % (tablename,time_time,ip_ip,lengh,success,dropped)
+        self.__mysql.Handle(sql)
+        
+    def CreatTables(self,tablename):
+        sql = 'create table if not exists %s( id int not null primary key,time char(20) not null,ip char(20) not null,delay char(20),timeout char(20),lengh char(20),success char(20),dropped char(20));' % tablename
+        self.__mysql.Handle(sql)
+
+def IpTransform(ip):
+    return ip.replace('.','_')
+
+def GetIp():
+    return socket.gethostbyname(socket.getfqdn(socket.gethostname()))
+#StatusServer().TcpServer()
+local_ip = '118.194.193.222'#GetIp()
+tablename = IpTransform(local_ip)
+print tablename
+Account().CreatTables(tablename)
+StatusAgent().TcpAgent(tablename)

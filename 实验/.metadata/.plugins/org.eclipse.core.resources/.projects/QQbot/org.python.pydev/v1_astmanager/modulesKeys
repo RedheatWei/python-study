@@ -1,0 +1,16 @@
+MODULES_MANAGER_V2
+qqbot-master.__init__|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\qqbot-master\__init__.py
+qqbot-master.qqbot|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\qqbot-master\qqbot.py
+qqbot-master.sample|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\qqbot-master\sample.py
+qqbot-master.setup|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\qqbot-master\setup.py
+smartQQbot.Configs|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\smartQQbot\Configs.py
+smartQQbot.Group|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\smartQQbot\Group.py
+smartQQbot.HttpClient|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\smartQQbot\HttpClient.py
+smartQQbot.Msg|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\smartQQbot\Msg.py
+smartQQbot.MsgHandler|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\smartQQbot\MsgHandler.py
+smartQQbot.Notify|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\smartQQbot\Notify.py
+smartQQbot.Pm|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\smartQQbot\Pm.py
+smartQQbot.QQLogin|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\smartQQbot\QQLogin.py
+smartQQbot.Sess|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\smartQQbot\Sess.py
+smartQQbot.main|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\smartQQbot\main.py
+smartQQbot.old_QQBot|C:\Users\Redheat\OneDrive\文档\学习记录\Python\实验\QQbot\smartQQbot\old_QQBot.py
